@@ -1,5 +1,5 @@
 #!/bin/bash
-# Private variables for route53-updater.sh
+# Private variables for route53-updater.sh - CHANGEME BEFORE USE
 ZONEID="XXXXXXXXXXXXXX"
 RECORDSET="name.domain.tld"
 PROFILE="route53IAMuser"
