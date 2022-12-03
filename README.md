@@ -10,6 +10,8 @@ Update AWS Route53 record as poor mans dynamic DNS
 
 The variables in this file are as follows:
 
+| Varialbe | Description |
+| ------------ | ------------------------------------------------------------------------------------------- |
 | ZONEID | Route53 DNS ZoneID for the domain being changed |
 | RECORDSET | The FQDN to be updated |
 | PROFILE | AWSCli profile to be used to connect (optional, must be defined in .aws/credentials) |
