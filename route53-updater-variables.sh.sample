@@ -1,0 +1,8 @@
+#!/bin/bash
+# Private variables for route53-updater.sh
+ZONEID="XXXXXXXXXXXXXX"
+RECORDSET="name.domain.tld"
+PROFILE="route53IAMuser"
+TYPE="A"
+TTL=300
+COMMENT="Auto updating @ `date`"
